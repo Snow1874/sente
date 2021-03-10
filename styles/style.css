@@ -152,7 +152,7 @@ select:focus {
 
 .mv {
   position: relative;
-  background-image: url(img/mv_img.png);
+  background-image: url(../img/mv_img.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -613,7 +613,7 @@ select:focus {
 .use__items__item__details__detail:before {
   content: "";
   position: absolute;
-  background-image: url(img/use_list_head.svg);
+  background-image: url(../img/use_list_head.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 18px;
@@ -1074,7 +1074,7 @@ select:focus {
 .faq__inner__accordion__item__question:after {
   content: "";
   position: absolute;
-  background-image: url(img/accordion_close.svg);
+  background-image: url(../img/accordion_close.svg);
   background-repeat: no-repeat;
   background-size: contain;
   top: 50%;
@@ -1092,7 +1092,7 @@ select:focus {
 }
 
 .faq__inner__accordion__item__question.open:after {
-  background-image: url(img/accordion_open.svg);
+  background-image: url(../img/accordion_open.svg);
 }
 
 .faq__inner__accordion__item__answer {
