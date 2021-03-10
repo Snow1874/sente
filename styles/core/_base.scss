@@ -467,6 +467,10 @@
       height: auto;
       @include tb {
         width: initial;
+        max-height: 500px;
+      }
+      @include sp {
+        max-height: 300px;
       }
     }
   }

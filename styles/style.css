@@ -807,6 +807,13 @@ select:focus {
 @media screen and (max-width: 768px) {
   .system__diagram img {
     width: initial;
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .system__diagram img {
+    max-height: 300px;
   }
 }
 
