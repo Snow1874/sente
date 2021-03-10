@@ -18,6 +18,13 @@
   }
 }
 
+.br_sp {
+  display: none;
+  @include sp {
+    display: block;
+  }
+}
+
 .mv {
   position: relative;
   background-image: url(../img/mv_img.png);
@@ -89,6 +96,9 @@
       background-color: #4b60ff;
       width: 100%;
       text-align: center;
+      &:hover {
+        opacity: 0.85;
+      }
       @include sp {
         padding: 15px 0;
       }
@@ -363,7 +373,7 @@
         margin: initial;
       }
       @include sp {
-        margin: 40px 0 0 0;
+        margin: 15px 0 0 0;
       }
     }
     &__item:nth-of-type(3) {
@@ -372,21 +382,27 @@
         margin: 40px 3% 0 0;
       }
       @include sp {
-        margin: 40px 0 0 0;
+        margin: 15px 0 0 0;
       }
     }
     &__item:nth-of-type(4) {
       @include tb {
         margin: 40px 0 0 0;
       }
+      @include sp {
+        margin: 15px 0 0 0;
+      }
     }
     &__item:nth-of-type(5) {
       @include sp {
-        margin: 40px 0 0 0;
+        margin: 15px 0 0 0;
       }
     }
     &__item:nth-of-type(6) {
       margin: 40px 0 0 0;
+      @include sp {
+        margin: 15px 0 0 0;
+      }
     }
   }
   &__banner {
@@ -399,6 +415,9 @@
     a {
       display: block;
       width: 100%;
+      &:hover {
+        opacity: 0.85;
+      }
       img {
         width: 100%;
         height: auto;

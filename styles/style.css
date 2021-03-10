@@ -150,6 +150,16 @@ select:focus {
   }
 }
 
+.br_sp {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .br_sp {
+    display: block;
+  }
+}
+
 .mv {
   position: relative;
   background-image: url(../img/mv_img.png);
@@ -252,6 +262,10 @@ select:focus {
   background-color: #4b60ff;
   width: 100%;
   text-align: center;
+}
+
+.mv_txt .mv_btn a:hover {
+  opacity: 0.85;
 }
 
 @media screen and (max-width: 425px) {
@@ -656,7 +670,7 @@ select:focus {
 
 @media screen and (max-width: 425px) {
   .use__items__item:nth-of-type(2) {
-    margin: 40px 0 0 0;
+    margin: 15px 0 0 0;
   }
 }
 
@@ -672,7 +686,7 @@ select:focus {
 
 @media screen and (max-width: 425px) {
   .use__items__item:nth-of-type(3) {
-    margin: 40px 0 0 0;
+    margin: 15px 0 0 0;
   }
 }
 
@@ -683,13 +697,25 @@ select:focus {
 }
 
 @media screen and (max-width: 425px) {
+  .use__items__item:nth-of-type(4) {
+    margin: 15px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .use__items__item:nth-of-type(5) {
-    margin: 40px 0 0 0;
+    margin: 15px 0 0 0;
   }
 }
 
 .use__items__item:nth-of-type(6) {
   margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 425px) {
+  .use__items__item:nth-of-type(6) {
+    margin: 15px 0 0 0;
+  }
 }
 
 .use__banner {
@@ -707,6 +733,10 @@ select:focus {
 .use__banner a {
   display: block;
   width: 100%;
+}
+
+.use__banner a:hover {
+  opacity: 0.85;
 }
 
 .use__banner a img {
